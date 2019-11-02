@@ -1,0 +1,16 @@
+name: Uai-Bot
+version: 0.1.0
+authors:
+  - name rafael.martins@codeminer.com
+
+description: |
+  Short description of Uai-Bot
+
+dependencies:
+  discordcr:
+    github: meew0/discordcr
+    branch: master
+  dotenv:
+    github: drum445/dotenv
+
+license: MIT

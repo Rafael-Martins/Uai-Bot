@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  discordcr:
+    github: meew0/discordcr
+    commit: 682751302da46e3dabdf8a2bb4ca5386acb9c444
+
+  dotenv:
+    github: drum445/dotenv
+    version: 0.3.0
+
