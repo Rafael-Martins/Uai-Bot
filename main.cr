@@ -13,7 +13,7 @@ client.on_message_create do |payload|
   command = payload.content
   case command
   when PREFIX + "help"
-    client.create_message(client.create_dm(payload.author.id).id, "No help for now...")
+    client.create_message(client.create_dm(payload.author.id).id, "Ainda sem ajuda")
   when PREFIX + "about"
     block = "```\nBot developed by discordcr\n```"
     client.create_message(payload.channel_id, block)
