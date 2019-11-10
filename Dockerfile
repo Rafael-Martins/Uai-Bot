@@ -4,5 +4,5 @@ COPY . .
 
 RUN shards install
 
-RUN crystal build main.cr -o server
+RUN crystal build main.cr -o server --link-flags --static --release
 
