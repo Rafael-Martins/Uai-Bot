@@ -4,7 +4,5 @@ COPY . .
 
 RUN shards install
 
-RUN mkdir -p build
-
-RUN crystal build main.cr -o build/server
+RUN crystal build main.cr -o server
 
