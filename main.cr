@@ -14,6 +14,8 @@ client.on_message_create do |payload|
   case command
   when PREFIX + "help"
     client.create_message(client.create_dm(payload.author.id).id, "Ainda sem ajuda...")
+  when PREFIX + "vergonha"
+    client.create_message(payload.channel_id, "https://i.ytimg.com/vi/9kr5gyeWYFk/maxresdefault.jpg")
   when PREFIX + "about"
     block = "```\nBot developed by discordcr\n```"
     client.create_message(payload.channel_id, block)
